@@ -1,0 +1,207 @@
+/* DOCUMENT INFORMATION
+
+    - Document: Page Admin
+    - version : 1.0.0
+    -Author : Joyce
+*/
+
+/* COLORS
+    - defaut body text #eee
+    - h1                #eee
+    - h2                #600f0f
+    - h3                #600f0f
+
+    -button
+    -button:hover
+
+    - icon              #be3838
+
+    -border
+
+
+*/
+
+/* FONTS
+    - default           
+    - subtitle
+
+*/
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+
+*/
+
+/* GLOBAL
+================================================= */
+
+
+html {
+    
+    background-color: #fff;
+}
+
+h1, h5 {
+    font-family: 'Oswald','Arial', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+
+p {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: 90px;
+    display: block;
+    margin-right: 15px;
+        
+}
+
+
+/* DASHBOARD
+========================================================= */
+
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #0f0b0b;
+}
+
+#sidebar ul li {
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+  
+}
+
+#sidebar .toggle-btn {
+    
+    position: relative;
+    left: 14%;
+    top: 60px;
+ 
+}
+
+.icon {
+    
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.toggle-btn  a:hover{
+    color: #b7cccc;
+    
+}
+
+.connexion-btn {
+    padding: 2%;
+    text-align: center;
+}
+
+.envoyez{
+    padding: 30%;
+    text-align: center;
+}
+
+.envoyez-btn {
+    padding: 2%;
+    text-align: center;
+}
+
+.Retour-btn{
+    padding: 10%;
+    text-align: left;
+    margin-left: 150px;
+}
+
+/*===================FORMULAIRE=============*/
+.connexion{
+    margin: 30%;
+}
+
+html,body {
+    background-image: url(../image-admin/filet.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*===================TABLEAU DE BORD======================*/
+
+.card-body {
+    margin-bottom: 400px;
+}
+
+.card-header { 
+    background-color: #ff9d2a;
+
+}
+
+.card-body-col3{ 
+     max-width: 26em;
+    
+}
+
+.card-text {
+    font-family: 'Oswald','Arial', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 500;
+    word-spacing: 10px;
+}
+
+.logo-img{
+    max-width: 30%;
+    max-height: 30%;
+    margin-left: 12px;
+    margin-bottom: 80px;
+  
+}
+
+.logo-img-2{
+    max-width: 26%;
+    max-height: 26%;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.card-text-2{
+    font-family: 'Oswald','Arial', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    word-spacing: 8px
+}
+
+/*=======================PANEL ADMIN=========================*/
+
+.calendrier{
+    margin-top: 30%;
+   
+ 
+}
+
+.img {
+    background-image: url(../image-admin/filet-header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
