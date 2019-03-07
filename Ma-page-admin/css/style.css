@@ -54,7 +54,7 @@ h1, h5 {
 
 p {
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: 'Oswald';
     letter-spacing: 1px;
@@ -65,7 +65,6 @@ p {
     margin-right: 15px;
         
 }
-
 
 /* DASHBOARD
 ========================================================= */
@@ -204,4 +203,43 @@ html,body {
     
 }
 
+/*=======================EMAIL================================*/
 
+
+.mail {
+    
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.mail-btn{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.box-title{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.box-body{
+    margin-left: 40%;
+}
+
+.card{
+    margin-bottom: 30%;
+}
+
+.send{
+   float: right;
+}
+
+th{
+    color: #ff9022;
+}
+b{
+    color: #569dff;
+}
+
+.form-group{
+    margin-top:  300px;
+}
